@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yerel Ağ Altyapısı</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="card hero-card">
+        <div class="badge">Gerçek çalışan yerel altyapı</div>
+        <h1>Bu sistem bilgisayarınızda çalışıyor</h1>
+        <p>
+          Bu sayfa, yerel makinenizde çalışan gerçek bir HTTP sunucusuna bağlanır.
+          Yalnızca bir görsel demo değil; ağ bağlantısı, veri iletimi ve aktarım hızı ölçümü yapan çalışan bir servis.
+        </p>
+        <div class="actions">
+          <button id="runTestBtn">Ağ testini başlat</button>
+          <button id="refreshBtn" class="secondary">Durumu yenile</button>
+        </div>
+        <div class="status" id="statusBox">Bağlanıyor…</div>
+        <div class="network-list" id="networkList"></div>
+      </section>
+
+      <section class="card metrics-card">
+        <div class="metrics-grid">
+          <div class="metric">
+            <span>Sunucu</span>
+            <strong id="serverValue">-</strong>
+          </div>
+          <div class="metric">
+            <span>İşlem</span>
+            <strong id="pidValue">-</strong>
+          </div>
+          <div class="metric">
+            <span>Son test</span>
+            <strong id="lastValue">-</strong>
+          </div>
+          <div class="metric">
+            <span>Aktarım hızı</span>
+            <strong id="speedValue">-</strong>
+          </div>
+        </div>
+        <div class="log" id="logBox"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
