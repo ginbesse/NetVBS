@@ -1,4 +1,4 @@
-# 50 Gbps Fiber Internet Demo
+# 50 Gbps Fiber Internet NetVBS
 
 Bu proje, bilgisayarında doğrudan çalıştırabileceğin bir yüksek hızlı ağ demo'sudur.
 
